@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp - Hanandifa - IM23A</title>
+    <style>
+        body{
+        display: flex;
+        padding: 0;
+        min-height: 100vh;
+        align-items: center;
+        background: #f0f2f5;
+        justify-content: center;
+        }
+        .container {
+            display: flex;
+        }
+        .form-right {
+            padding-left: 23px;
+        }
+        .wrapper {
+            max-width: 700px;
+            height: auto;
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .wrapper header {
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .wrapper:hover {
+            box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 5px;
+        }
+        input[type="text"], input[type="password"], input[type="number"], textarea, select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #414a51;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>Register</header>
+        <form action="index.html">
+            <div class="container">
+                <div class="form-left">
+                    <table>
+                        <tr>
+                            <td>Nama Depan</td>
+                            <td><input type="text"><br></td>
+                        </tr>
+                        <tr>
+                            <td>Alamat</td>
+                            <td><textarea></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>No HP</td>
+                            <td><input type="number"><br></td>
+                        </tr>
+                        <tr>
+                            <td>Pekerjaan</td>
+                            <td><select name="" id="">
+                                <option>Swasta</option>
+                                <option>PNS</option>
+                                <option>TNI</option>
+                                <option>Polri</option>
+                                <option>Dokter</option>
+                                <option>Programmer</option>
+                                <option>DPR</option>
+                                <option>Guru</option>
+                                <option>Dosen</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td>NIK</td>
+                            <td><input type="text"><br></td>
+                        </tr>
+                        <tr>
+                            <td>URL Website</td>
+                            <td><input type="text"><br></td>
+                        </tr>
+                    <tr>
+                        <td>Nama Ayah</td>
+                        <td><input type="text"><br></td>
+                    </tr>
+                    <tr>
+                        <td>Alamat Ayah</td>
+                        <td><textarea></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>NIK Ayah</td>
+                        <td><input type="number"><br></td>
+                    </tr>
+                    <tr>
+                        <td>Pekerjaan Ayah</td>
+                        <td><select name="" id="">
+                            <option>Swasta</option>
+                            <option>PNS</option>
+                            <option>TNI</option>
+                            <option>Polri</option>
+                            <option>Dokter</option>
+                            <option>Programmer</option>
+                            <option>DPR</option>
+                            <option>Guru</option>
+                            <option>Dosen</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>No HP Ayah</td>
+                        <td><input type="number"><br></td>
+                    </tr>
+                    <tr>
+                        <td>Username</td>
+                        <td><input type="text"><br></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password"><br></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="form-right">
+                <table>
+                    <tr>
+                        <td>Nama Belakang</td>
+                        <td><input type="text"><br></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="text"><br></td>
+                    </tr>
+                    <tr>
+                        <td>Agama</td>
+                        <td><select name="" id="">
+                            <option>Islam</option>
+                            <option>Kristen</option>
+                            <option>Katolik</option>
+                            <option>Hindu</option>
+                            <option>Buddha</option>
+                            <option>Khonghucu</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td><input type="radio" name="jenis_kelamin"> Laki-Laki
+                            <input type="radio" name="jenis_kelamin"> Perempuan
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>URL Facebook</td>
+                        <td><input type="text"><br></td>
+                    </tr>
+                    <tr>
+                        <td>URL Instagram</td>
+                        <td><input type="text"><br></td>
+                    </tr>
+                    <tr>
+                        <td>URL Tiktok</td>
+                        <td><input type="text"><br></td>
+                    </tr>
+                    <tr>
+                        <td>Nama Ibu</td>
+                        <td><input type="text"><br></td>
+                    </tr>
+                    <tr>
+                        <td>Alamat Ibu</td>
+                        <td><textarea></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>NIK Ibu</td>
+                        <td><input type="number"><br></td>
+                    </tr>
+                    <tr>
+                        <td>Pekerjaan Ibu</td>
+                        <td><select name="" id="">
+                            <option>Swasta</option>
+                            <option>PNS</option>
+                            <option>TNI</option>
+                            <option>Polri</option>
+                            <option>Dokter</option>
+                            <option>Programmer</option>
+                            <option>DPR</option>
+                            <option>Guru</option>
+                            <option>Dosen</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>No HP Ibu</td>
+                        <td><input type="number"><br></td>
+                    </tr>
+                    <tr>
+                        <td>Re-type Password</td>
+                        <td><input type="password"><br></td>
+                    </tr>
+                </table>
+                
+            </div>
+        </div>
+        <input type="submit" value="SUBMIT">
+    </form>
+    <p><a href="log-in.html">Already have an account?</a></p>
+    <p><a href="index.html">← Back to Home</a></p>
+</div>
+</body>
+</html>

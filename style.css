@@ -1,0 +1,59 @@
+.nav-link {
+    transition: border 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #414a51;
+    border-radius: 4px;
+    padding: 5px;
+    color: #ffffff;
+}
+
+section {
+    padding-top: 1rem;
+    margin-bottom: 0;
+}
+
+.jumbotron {
+    padding-top: 5rem;
+    background-color: #e2edff;
+  }
+
+  
+.jumbotron {
+    background-color: #e2edff;
+  }
+
+  #gallery {
+    background-color: #e2edff;
+    
+  }
+
+  #donate {
+    background-color: #e2edff;
+  }
+
+  #faq {
+    background-color: #e2edff;
+  }
+
+.accordion{
+    max-width: 650px;
+    margin: 40px auto;
+}
+
+.accordion-button{
+    background-color: #0099ff;
+    color: #000000 !important;
+}
+
+  footer {
+    background: #0099ff;
+    display: flex;
+    justify-content: center;
+    margin-top: -1px;
+  }
+
+  .footer-link:hover {
+    color: #0099ff;
+  }
